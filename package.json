@@ -1,0 +1,29 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "mkdir -p ./data/authors; mkdir -p ./data/images; ts-node --script-mode src/index.ts",
+    "build": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cheng",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.22",
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "image-downloader": "^4.0.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "slugify": "^1.4.6"
+  }
+}
