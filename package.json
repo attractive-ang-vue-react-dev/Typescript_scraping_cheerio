@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Cheng",
+  "author": "code Ninjia",
   "license": "ISC",
   "devDependencies": {
     "@types/axios": "^0.14.0",
